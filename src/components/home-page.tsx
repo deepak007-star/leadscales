@@ -9,6 +9,9 @@ import {
   Wrench,
   Home,
   TreePine,
+  Stethoscope,
+  Building2,
+  Zap,
   ArrowRight,
   Phone,
 } from "lucide-react";
@@ -23,6 +26,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string; color?: 
   plumbing: Wrench,
   roofing: Home,
   gardening: TreePine,
+  dentist: Stethoscope,
+  "real-estate-agent": Building2,
+  electrician: Zap,
 };
 
 export function HomePage() {

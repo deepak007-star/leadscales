@@ -110,6 +110,78 @@ export const industryImages: Record<
     partnerHero: "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1200&q=80",
     video: "dQw4w9WgXcQ",
   },
+  dentist: {
+    hero: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&q=80",
+    cards: [
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80",
+    ],
+    testimonialAvatars: [
+      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80",
+    ],
+    cta: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1920&q=80",
+    insights: [
+      "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80",
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80",
+      "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80",
+    ],
+    offerings: [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+    ],
+    partnerHero: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80",
+    video: "dQw4w9WgXcQ",
+  },
+  "real-estate-agent": {
+    hero: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80",
+    cards: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    ],
+    testimonialAvatars: [
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
+    ],
+    cta: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920&q=80",
+    insights: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+    ],
+    offerings: [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+    ],
+    partnerHero: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    video: "dQw4w9WgXcQ",
+  },
+  electrician: {
+    hero: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=80",
+    cards: [
+      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80",
+      "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&q=80",
+    ],
+    testimonialAvatars: [
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+    ],
+    cta: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&q=80",
+    insights: [
+      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80",
+      "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&q=80",
+      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
+    ],
+    offerings: [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80",
+    ],
+    partnerHero: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&q=80",
+    video: "dQw4w9WgXcQ",
+  },
 };
 
 // Homepage images
@@ -120,5 +192,8 @@ export const homeImages = {
     plumbing: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=600&q=80",
     roofing: "https://images.unsplash.com/photo-1632759145351-1d592919f522?w=600&q=80",
     gardening: "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=600&q=80",
+    dentist: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80",
+    "real-estate-agent": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80",
+    electrician: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
   } as Record<string, string>,
 };

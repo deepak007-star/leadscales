@@ -749,6 +749,522 @@ export const industries: IndustryData[] = [
       },
     ],
   },
+
+  {
+    slug: "dentist",
+    name: "Dentist",
+    tagline: "Maximize your dental practice marketing.",
+    heroHeadline: "Your Patients, Your Practice, Your Growth.",
+    heroDescription:
+      "Patients spend days researching dentists online before booking their first appointment. Our marketing ensures your practice stands out, builds trust, and fills your chair schedule — every single week.",
+    color: "#06B6D4",
+    colorLight: "#ECFEFF",
+    colorDark: "#0E7490",
+
+    accolades: [
+      { label: "Google Partner" },
+      { label: "Meta Business Partner" },
+      { label: "Microsoft Advertising" },
+    ],
+
+    clientLogos: [
+      "BrightSmile Dental",
+      "PearlView Dentistry",
+      "Cornerstone Family Dental",
+      "Summit Dental Group",
+      "Clearwater Dental",
+      "NovaCare Dentistry",
+      "Prestige Dental Studio",
+      "EverSmile Dental",
+    ],
+
+    solution: {
+      headline: "Your marketing should drive revenue. Now it does.",
+      description:
+        "An all-in-one marketing solution built for dental practices. From new patient acquisition to high-value cosmetic cases — we keep your chairs full and your practice growing.",
+      cta: "Explore Dental Solutions",
+      features: [
+        {
+          icon: "PhoneCall",
+          title: "Never miss a new patient",
+          description:
+            "AI-powered chat and call capture turns every website visitor and phone inquiry into a booked appointment — even after hours.",
+        },
+        {
+          icon: "Target",
+          title: "Attract high-value cases",
+          description:
+            "Target patients searching for implants, veneers, Invisalign, and cosmetic dentistry — not just routine cleanings.",
+        },
+        {
+          icon: "BarChart3",
+          title: "See what fills your chairs",
+          description:
+            "Real-time dashboards show which campaigns drive new patient bookings, which services convert best, and your true cost per patient.",
+        },
+      ],
+    },
+
+    offerings: [
+      {
+        title: "Marketing Team",
+        description:
+          "A dedicated team of dental marketing specialists who understand patient acquisition, insurance dynamics, and the competitive landscape of modern dentistry.",
+        link: "#",
+        dark: true,
+      },
+      {
+        title: "Website",
+        description:
+          "Beautiful, trust-building websites with online booking, before/after galleries, and patient portals that convert visitors into appointments.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Ranking",
+        description:
+          "Dominate local search for 'dentist near me', 'cosmetic dentist', and hundreds of high-intent dental keywords in your area.",
+        link: "#",
+      },
+      {
+        title: "Reputation",
+        description:
+          "Automate review requests after every appointment. Build the 5-star reputation that makes patients choose your practice over every competitor.",
+        link: "#",
+      },
+      {
+        title: "Social Media",
+        description:
+          "Smile transformations, patient education content, and targeted ads that position your practice as the go-to dental provider in your community.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Digital Advertising",
+        description:
+          "Google Ads and social campaigns targeting patients searching for implants, teeth whitening, emergency dental care, and more. Every click is a potential patient.",
+        link: "#",
+        dark: true,
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "We added two hygienists and a third operatory in under a year. LeadScale filled our schedule so fast we had to expand just to keep up with demand.",
+        company: "BrightSmile Dental",
+        author: "Dr. Rachel Adams",
+        role: "Owner",
+      },
+      {
+        quote:
+          "Our cosmetic cases tripled after LeadScale took over our marketing. We're attracting the exact patients we want — implants, veneers, full smile makeovers.",
+        company: "Prestige Dental Studio",
+        author: "Dr. Kevin Park",
+        role: "Founder",
+      },
+    ],
+
+    partners: [
+      "Google Partner",
+      "Meta Business Partner",
+      "Microsoft Advertising",
+      "Dentrix",
+      "Open Dental",
+    ],
+
+    ctaSection: {
+      headline: "What would a full appointment book every month do for your practice?",
+      subtext: "Let's find out.",
+      buttonText: "Grow My Dental Practice",
+    },
+
+    successStories: [
+      {
+        company: "BrightSmile Dental",
+        stat: "278%",
+        statLabel: "increase in new patient bookings",
+        quote: "We went from empty chairs to a 3-week waitlist for new patients.",
+      },
+      {
+        company: "PearlView Dentistry",
+        stat: "5.2x",
+        statLabel: "return on ad spend",
+        quote: "Our implant campaigns alone cover our entire marketing investment.",
+      },
+      {
+        company: "Cornerstone Family Dental",
+        stat: "62%",
+        statLabel: "lower cost per new patient",
+        quote: "We're spending less on marketing but seeing more new faces every week.",
+      },
+    ],
+
+    insights: [
+      {
+        title: "How Dental Practices Can Fill Their Schedule Year-Round",
+        date: "Mar 18, 2026",
+        image: "/images/insight-1.jpg",
+        slug: "dental-year-round-schedule",
+      },
+      {
+        title: "5 Google Ads Strategies Every Dental Practice Needs",
+        date: "Mar 11, 2026",
+        image: "/images/insight-2.jpg",
+        slug: "dental-google-ads-strategies",
+      },
+      {
+        title: "Why Online Reviews Make or Break a Dental Practice",
+        date: "Mar 04, 2026",
+        image: "/images/insight-3.jpg",
+        slug: "dental-reviews-matter",
+      },
+    ],
+  },
+
+  {
+    slug: "real-estate-agent",
+    name: "Real Estate",
+    tagline: "Maximize your real estate marketing.",
+    heroHeadline: "Your Listings, Your Clients, Your Market.",
+    heroDescription:
+      "Buyers and sellers start their search online — and the agents who dominate digital win the listings and close more deals. Our marketing makes sure that agent is you.",
+    color: "#8B5CF6",
+    colorLight: "#F5F3FF",
+    colorDark: "#6D28D9",
+
+    accolades: [
+      { label: "Google Partner" },
+      { label: "Meta Business Partner" },
+      { label: "Microsoft Advertising" },
+    ],
+
+    clientLogos: [
+      "Keystone Realty",
+      "Pinnacle Real Estate Group",
+      "HomeFront Agents",
+      "BlueSky Properties",
+      "Crestview Realty",
+      "Northstar Real Estate",
+      "Atlas Property Group",
+      "TrueHome Realtors",
+    ],
+
+    solution: {
+      headline: "Your marketing should drive revenue. Now it does.",
+      description:
+        "An all-in-one marketing solution built for real estate professionals. Capture buyer and seller leads, showcase your listings, and build the personal brand that wins in your market.",
+      cta: "Explore Real Estate Solutions",
+      features: [
+        {
+          icon: "PhoneCall",
+          title: "Capture every lead 24/7",
+          description:
+            "AI-powered chat and call routing ensures you never miss a buyer inquiry or seller consultation request — even when you're at a showing.",
+        },
+        {
+          icon: "Target",
+          title: "Dominate your local market",
+          description:
+            "Target homeowners thinking about selling and buyers actively searching in your area with hyper-local digital campaigns.",
+        },
+        {
+          icon: "BarChart3",
+          title: "Track deals from click to close",
+          description:
+            "See exactly which campaigns generate leads, which channels deliver the highest-value clients, and your true cost per closing.",
+        },
+      ],
+    },
+
+    offerings: [
+      {
+        title: "Marketing Team",
+        description:
+          "Real estate marketing specialists who understand listing cycles, seasonal market shifts, and the personal branding that separates top agents from the pack.",
+        link: "#",
+        dark: true,
+      },
+      {
+        title: "Website",
+        description:
+          "IDX-integrated websites with property search, listing showcases, and lead capture forms that turn browsers into buyer and seller consultations.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Ranking",
+        description:
+          "Rank #1 for 'realtor near me', '[city] homes for sale', and every high-intent real estate keyword that drives serious clients to your business.",
+        link: "#",
+      },
+      {
+        title: "Reputation",
+        description:
+          "Build the review profile that makes buyers and sellers choose you. Automate review requests after every closing and showcase your track record.",
+        link: "#",
+      },
+      {
+        title: "Social Media",
+        description:
+          "Property showcases, market updates, virtual tours, and targeted ads that establish you as the go-to agent in your community.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Digital Advertising",
+        description:
+          "Listing promotion, buyer targeting, and seller lead campaigns on Google, Facebook, and Instagram. Every dollar drives real pipeline.",
+        link: "#",
+        dark: true,
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "I went from 12 closings a year to 34. LeadScale's marketing gave me a consistent pipeline of qualified buyers and sellers that I never had before.",
+        company: "Keystone Realty",
+        author: "Jennifer Walsh",
+        role: "Lead Agent",
+      },
+      {
+        quote:
+          "Our team doubled in size because we had more leads than we could handle. The seller lead campaigns alone transformed our brokerage.",
+        company: "Pinnacle Real Estate Group",
+        author: "Marcus Thompson",
+        role: "Broker/Owner",
+      },
+    ],
+
+    partners: [
+      "Google Partner",
+      "Meta Business Partner",
+      "Microsoft Advertising",
+      "Zillow",
+      "Realtor.com",
+    ],
+
+    ctaSection: {
+      headline: "What would doubling your qualified buyer and seller leads do for your commissions?",
+      subtext: "Let's find out.",
+      buttonText: "Grow My Real Estate Business",
+    },
+
+    successStories: [
+      {
+        company: "Keystone Realty",
+        stat: "340%",
+        statLabel: "increase in qualified leads",
+        quote: "My pipeline went from feast-or-famine to consistently overflowing.",
+      },
+      {
+        company: "HomeFront Agents",
+        stat: "3.8x",
+        statLabel: "return on ad spend",
+        quote: "Every dollar we spend on marketing comes back nearly four-fold.",
+      },
+      {
+        company: "Crestview Realty",
+        stat: "52%",
+        statLabel: "more listings won",
+        quote: "Sellers come to us now because of our online presence and reviews.",
+      },
+    ],
+
+    insights: [
+      {
+        title: "How Top Agents Are Winning Listings with Digital Marketing",
+        date: "Mar 16, 2026",
+        image: "/images/insight-1.jpg",
+        slug: "winning-listings-digital-marketing",
+      },
+      {
+        title: "The Real Estate Agent's Guide to Facebook and Instagram Ads",
+        date: "Mar 09, 2026",
+        image: "/images/insight-2.jpg",
+        slug: "real-estate-social-ads",
+      },
+      {
+        title: "Building a Personal Brand That Closes Deals",
+        date: "Mar 02, 2026",
+        image: "/images/insight-3.jpg",
+        slug: "real-estate-personal-brand",
+      },
+    ],
+  },
+
+  {
+    slug: "electrician",
+    name: "Electrician",
+    tagline: "Maximize your electrical marketing.",
+    heroHeadline: "Your Jobs, Your Revenue, Your Growth.",
+    heroDescription:
+      "When the lights go out, homeowners need an electrician they can trust — fast. Our marketing makes sure they find you first, whether it's an emergency call or a major panel upgrade.",
+    color: "#F97316",
+    colorLight: "#FFF7ED",
+    colorDark: "#C2410C",
+
+    accolades: [
+      { label: "Google Partner" },
+      { label: "Meta Business Partner" },
+      { label: "Microsoft Advertising" },
+    ],
+
+    clientLogos: [
+      "VoltPro Electric",
+      "Sparks Electrical Services",
+      "CurrentFlow Electric",
+      "BrightWire Solutions",
+      "PowerUp Electrical",
+      "Apex Electric Co.",
+      "SafeCircuit Electric",
+      "ProWatt Services",
+    ],
+
+    solution: {
+      headline: "Your marketing should drive revenue. Now it does.",
+      description:
+        "An all-in-one marketing solution built for electrical contractors. Capture emergency calls, land high-value panel upgrades and rewiring projects, and keep your crews booked solid.",
+      cta: "Explore Electrical Solutions",
+      features: [
+        {
+          icon: "PhoneCall",
+          title: "Capture every emergency call",
+          description:
+            "AI-powered call routing and live chat means you never lose a power outage or electrical emergency lead to a competitor — day or night.",
+        },
+        {
+          icon: "Target",
+          title: "Land high-value projects",
+          description:
+            "Target homeowners who need panel upgrades, whole-home rewiring, EV charger installations, and smart home setups — not just outlet repairs.",
+        },
+        {
+          icon: "BarChart3",
+          title: "Track every dollar",
+          description:
+            "See exactly which campaigns generate calls, which services convert best, and what your true cost per booked job is.",
+        },
+      ],
+    },
+
+    offerings: [
+      {
+        title: "Marketing Team",
+        description:
+          "A dedicated team of electrical marketing specialists who understand emergency service demand, commercial bidding, and the trust-building that wins residential and commercial contracts.",
+        link: "#",
+        dark: true,
+      },
+      {
+        title: "Website",
+        description:
+          "Conversion-optimized websites with emergency banners, click-to-call, service booking, and project galleries that turn visitors into booked jobs.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Ranking",
+        description:
+          "Rank #1 for 'electrician near me', 'electrical panel upgrade', and every high-intent keyword that drives real phone calls in your service area.",
+        link: "#",
+      },
+      {
+        title: "Reputation",
+        description:
+          "Homeowners are trusting you with their family's safety. Build the 5-star review profile that makes them choose you over every other electrician.",
+        link: "#",
+      },
+      {
+        title: "24/7 Lead Capture",
+        description:
+          "Electrical emergencies don't wait for business hours. Our AI chat and call system captures leads around the clock so you never miss a job.",
+        link: "#",
+        accent: true,
+      },
+      {
+        title: "Digital Advertising",
+        description:
+          "Google Local Service Ads, PPC campaigns, and social advertising targeting homeowners and businesses with urgent electrical needs. Every click counts.",
+        link: "#",
+        dark: true,
+      },
+    ],
+
+    testimonials: [
+      {
+        quote:
+          "We went from a two-man crew to running three fully booked trucks in under a year. LeadScale's marketing was the engine behind everything. The phone hasn't stopped.",
+        company: "VoltPro Electric",
+        author: "Dave Mitchell",
+        role: "Owner",
+      },
+      {
+        quote:
+          "Panel upgrades and EV charger installs are now 60% of our revenue. LeadScale helped us attract the exact high-value projects we wanted to grow into.",
+        company: "BrightWire Solutions",
+        author: "Lisa Nguyen",
+        role: "Operations Manager",
+      },
+    ],
+
+    partners: [
+      "Google Partner",
+      "Meta Business Partner",
+      "Microsoft Advertising",
+      "ServiceTitan",
+      "Housecall Pro",
+    ],
+
+    ctaSection: {
+      headline: "What would a pipeline full of panel upgrades and rewiring projects do for your business?",
+      subtext: "Let's find out.",
+      buttonText: "Grow My Electrical Business",
+    },
+
+    successStories: [
+      {
+        company: "VoltPro Electric",
+        stat: "295%",
+        statLabel: "increase in qualified leads",
+        quote: "Our phone rings constantly with homeowners who found us on Google.",
+      },
+      {
+        company: "Sparks Electrical Services",
+        stat: "4.1x",
+        statLabel: "return on ad spend",
+        quote: "The emergency call campaigns changed everything for our business.",
+      },
+      {
+        company: "Apex Electric Co.",
+        stat: "38%",
+        statLabel: "lower cost per lead",
+        quote: "We're spending less but booking dramatically more jobs than before.",
+      },
+    ],
+
+    insights: [
+      {
+        title: "How Electricians Can Capture More Emergency Calls Online",
+        date: "Mar 20, 2026",
+        image: "/images/insight-1.jpg",
+        slug: "electrician-emergency-calls",
+      },
+      {
+        title: "The Electrician's Guide to Google Local Service Ads",
+        date: "Mar 13, 2026",
+        image: "/images/insight-2.jpg",
+        slug: "electrician-google-lsa",
+      },
+      {
+        title: "Why EV Charger Marketing Is the Next Big Opportunity for Electricians",
+        date: "Mar 06, 2026",
+        image: "/images/insight-3.jpg",
+        slug: "ev-charger-marketing-electricians",
+      },
+    ],
+  },
 ];
 
 export function getIndustry(slug: string): IndustryData | undefined {

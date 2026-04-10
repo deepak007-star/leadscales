@@ -15,6 +15,7 @@ import {
   CheckCircle,
   ArrowRight,
 } from "lucide-react";
+import { industries } from "@/data/industries";
 
 export function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -159,10 +160,11 @@ export function ContactPage() {
                         className="flex h-12 w-full rounded-xl border border-gray-300 bg-white px-4 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-shadow"
                       >
                         <option value="">Select your industry...</option>
-                        <option value="hvac">HVAC</option>
-                        <option value="plumbing">Plumbing</option>
-                        <option value="roofing">Roofing</option>
-                        <option value="gardening">Gardening / Landscaping</option>
+                        {industries.map((ind) => (
+                          <option key={ind.slug} value={ind.slug}>
+                            {ind.name}
+                          </option>
+                        ))}
                         <option value="other">Other Home Service</option>
                       </select>
                     </div>

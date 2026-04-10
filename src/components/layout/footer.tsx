@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/constants";
+import { industries } from "@/data/industries";
 
 interface FooterProps {
   industryColor?: string;
@@ -36,10 +37,13 @@ export function Footer({ industryColor }: FooterProps) {
               Industries
             </h3>
             <ul className="space-y-2.5">
-              <li><Link href="/hvac" className="text-sm text-gray-400 hover:text-white transition-colors">HVAC</Link></li>
-              <li><Link href="/plumbing" className="text-sm text-gray-400 hover:text-white transition-colors">Plumbing</Link></li>
-              <li><Link href="/roofing" className="text-sm text-gray-400 hover:text-white transition-colors">Roofing</Link></li>
-              <li><Link href="/gardening" className="text-sm text-gray-400 hover:text-white transition-colors">Gardening</Link></li>
+              {industries.map((ind) => (
+                <li key={ind.slug}>
+                  <Link href={`/${ind.slug}`} className="text-sm text-gray-400 hover:text-white transition-colors">
+                    {ind.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
